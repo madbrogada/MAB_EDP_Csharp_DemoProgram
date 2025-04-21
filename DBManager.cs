@@ -10,7 +10,7 @@ namespace MAB_EDP_Csharp_DemoProgram
 {
     internal class DBManager
     {
-        private readonly string connectionString = "server=localhost; database=hr; uid=root; pwd=mike;";
+        private readonly string connectionString = "server=localhost; database=demodb; uid=root; pwd=mike;";
         
         public bool AuthenticateUser(string username, string password)
         {
